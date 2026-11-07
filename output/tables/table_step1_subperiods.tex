@@ -1,0 +1,40 @@
+\begin{table}[htbp]
+  \centering
+  \scriptsize
+  \caption{Budget-imbalance mean, RMSE, and MAE of $\BIM^{\mathrm{GCB}}$ (GtC/yr) by period for each GCB vintage 2017--2025. For each period the mean is $\overline{\BIM}$, $\mathrm{RMSE}=\sqrt{\overline{\BIM^{2}}}$, and $\mathrm{MAE}=\overline{|\BIM|}$; the loss functions measure the size of the imbalance without the sign cancellation that affects the mean. Each vintage $v$ is evaluated on its own sample $1959$--$(v{-}1)$; periods run from the full sample down through successive ten-year windows, most recent first, so the windows shift by one year from vintage to vintage; the pre-decade remainder before 1959 is not shown. A dash marks a decade a shorter vintage does not reach. The 2025 column is in bold.}
+  \label{tab:bim_subperiods_vintages}
+  \begin{tabular}{llrrrrrrrrr}
+    \toprule
+    Period & & 2017 & 2018 & 2019 & 2020 & 2021 & 2022 & 2023 & 2024 & \textbf{2025} \\
+    \midrule
+    \multirow{3}{*}{Full sample} & mean & $+0.001$ & $+0.136$ & $+0.172$ & $-0.009$ & $+0.048$ & $-0.052$ & $-0.028$ & $+0.001$ & $\mathbf{+0.540}$ \\
+     & RMSE & $0.849$ & $0.804$ & $0.779$ & $0.765$ & $0.765$ & $0.718$ & $0.695$ & $0.705$ & $\mathbf{0.899}$ \\
+     & MAE & $0.700$ & $0.666$ & $0.636$ & $0.612$ & $0.626$ & $0.602$ & $0.573$ & $0.586$ & $\mathbf{0.730}$ \\
+    \addlinespace
+    \multirow{3}{*}{Last decade} & mean & $+0.567$ & $+0.507$ & $+0.430$ & $-0.043$ & $-0.275$ & $-0.334$ & $-0.439$ & $-0.443$ & $\mathbf{+0.016}$ \\
+     & RMSE & $0.865$ & $0.736$ & $0.676$ & $0.473$ & $0.599$ & $0.554$ & $0.552$ & $0.577$ & $\mathbf{0.622}$ \\
+     & MAE & $0.695$ & $0.563$ & $0.519$ & $0.420$ & $0.512$ & $0.478$ & $0.439$ & $0.458$ & $\mathbf{0.431}$ \\
+    \addlinespace
+    \multirow{3}{*}{Second-to-last} & mean & $-0.406$ & $-0.239$ & $+0.130$ & $+0.033$ & $+0.090$ & $+0.086$ & $+0.043$ & $+0.084$ & $\mathbf{+0.797}$ \\
+     & RMSE & $0.750$ & $0.642$ & $0.359$ & $0.524$ & $0.505$ & $0.455$ & $0.495$ & $0.508$ & $\mathbf{0.940}$ \\
+     & MAE & $0.530$ & $0.467$ & $0.309$ & $0.374$ & $0.384$ & $0.367$ & $0.398$ & $0.422$ & $\mathbf{0.797}$ \\
+    \addlinespace
+    \multirow{3}{*}{Third-to-last} & mean & $+0.085$ & $+0.230$ & $+0.254$ & $-0.022$ & $+0.107$ & $-0.105$ & $-0.199$ & $-0.286$ & $\mathbf{+0.270}$ \\
+     & RMSE & $1.055$ & $0.999$ & $1.147$ & $1.169$ & $1.021$ & $0.812$ & $0.669$ & $0.673$ & $\mathbf{0.810}$ \\
+     & MAE & $0.884$ & $0.823$ & $0.947$ & $0.940$ & $0.775$ & $0.590$ & $0.451$ & $0.518$ & $\mathbf{0.630}$ \\
+    \addlinespace
+    \multirow{3}{*}{Fourth-to-last} & mean & $-0.425$ & $-0.250$ & $-0.217$ & $-0.384$ & $-0.200$ & $-0.097$ & $+0.007$ & $-0.068$ & $\mathbf{+0.601}$ \\
+     & RMSE & $0.881$ & $0.775$ & $0.802$ & $0.826$ & $0.795$ & $0.925$ & $0.986$ & $0.984$ & $\mathbf{1.161}$ \\
+     & MAE & $0.800$ & $0.709$ & $0.732$ & $0.692$ & $0.709$ & $0.848$ & $0.891$ & $0.899$ & $\mathbf{0.969}$ \\
+    \addlinespace
+    \multirow{3}{*}{Fifth-to-last} & mean & $-0.206$ & $-0.127$ & $-0.077$ & $-0.187$ & $-0.248$ & $-0.506$ & $-0.244$ & $-0.074$ & $\mathbf{+0.420}$ \\
+     & RMSE & $0.807$ & $0.755$ & $0.681$ & $0.656$ & $0.539$ & $0.711$ & $0.560$ & $0.506$ & $\mathbf{0.628}$ \\
+     & MAE & $0.702$ & $0.639$ & $0.547$ & $0.546$ & $0.456$ & $0.628$ & $0.512$ & $0.444$ & $\mathbf{0.532}$ \\
+    \addlinespace
+    \multirow{3}{*}{Sixth-to-last} & mean & -- & -- & $+0.512$ & $+0.483$ & $+0.652$ & $+0.376$ & $+0.288$ & $+0.290$ & $\mathbf{+0.685}$ \\
+     & RMSE & -- & -- & $0.799$ & $0.742$ & $0.947$ & $0.709$ & $0.691$ & $0.657$ & $\mathbf{0.814}$ \\
+     & MAE & -- & -- & $0.761$ & $0.698$ & $0.872$ & $0.636$ & $0.615$ & $0.558$ & $\mathbf{0.688}$ \\
+    \addlinespace
+    \bottomrule
+  \end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+quantity,value
+"H&C2023 mean, GCB2023 vintage",0.913673448275862
+"H&C2023 mean, GCB2024 vintage",0.9028870689655172
+"H&C2023 revision, mean",-0.010786379310344832
+"H&C2023 revision, max abs",0.06851000000000007
+BK member BLUE mean,1.9849165517241378
+BK member OSCAR mean,1.5547372413793101
+BK member LUCE mean,1.703314137931035
+BK mean 3 members (published),1.7476559770114946
+BK mean 4 members (counterfactual),1.53646375
+E_LUC difference,-0.21119222701149454
+"BIM mean, published GCB2025",0.6057781243902541
+"BIM mean, counterfactual",0.3945858973787598
+"BIM counterfactual, Normal CI lo",0.212442087254997
+"BIM counterfactual, Normal CI hi",0.5767297075025226
+"BIM counterfactual, AR(1) CI lo",0.16495522037926214
+"BIM counterfactual, AR(1) CI hi",0.6242165743782575
+"BIM counterfactual, AR(1) rho",0.2276178634796129
+leaver term at 2025 member values,0.21119222701149434
